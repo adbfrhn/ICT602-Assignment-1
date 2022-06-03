@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context=".AboutActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="ABOUT US"
+        android:textColor="#151414"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Adib Farhan Bin Ahmad Rashdi"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Muhammad Muhaimin Bin Mohd Fauzi"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="13dp"
+        android:text="Email : adbfrhn5@gmail.com"
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/address2"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone2"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="13dp"
+        android:text=" Email: muhaiminfauzi99@gmail.com"
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/phoneIcon"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="16dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        app:srcCompat="@android:drawable/ic_menu_call" />
+
+    <ImageView
+        android:id="@+id/phoneIcon2"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="16dp"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        app:srcCompat="@android:drawable/ic_menu_call" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="2dp"
+        android:text="Phone Number: 013-8945643"
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/phone2"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="2dp"
+        android:text="Phone Number: 019-7194305"
+        android:textColor="#161616"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="18dp"
+        android:layout_height="16dp"
+        android:layout_below="@id/phoneIcon"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="16dp"
+        android:background="#000000"
+        android:backgroundTint="#151515"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <ImageView
+        android:id="@+id/location2"
+        android:layout_width="18dp"
+        android:layout_height="16dp"
+        android:layout_below="@id/phoneIcon2"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="16dp"
+        android:background="#000000"
+        android:backgroundTint="#151515"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+
+    <TextView
+        android:id="@+id/textViewLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="@string/messageWithLink"
+        android:textColor="#FF9800"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLink"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="20dp"
+        android:text="2022 Copyright @ Adib and Muhaimin"
+        android:textSize="10sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="91dp"
+        android:layout_height="102dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/myzakatgoldlogo" />
+
+</RelativeLayout>
